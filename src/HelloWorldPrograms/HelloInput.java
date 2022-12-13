@@ -11,5 +11,18 @@ public class HelloInput {
         String name = br.readLine();
         br.close();
         System.out.print("Hi " + name.strip() + ", Welcome to Java");
+        
+        /* Using try-catch-finally block
+        
+        try {
+            String name = br.readLine();
+            System.out.print("Hi " + name.strip() + ", Welcome to Java");
+        } catch (IOException ex) {
+            System.out.println(ex);
+        } finally {
+            br.close();
+        }
+        
+        */
     }
 }
