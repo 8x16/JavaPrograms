@@ -1,3 +1,5 @@
+package HelloWorldPrograms;
+
 import java.util.Scanner;
 
 public class HelloUser {
